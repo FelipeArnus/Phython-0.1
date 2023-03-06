@@ -14,4 +14,4 @@ print("  hello there", sep = '')# |print("fala interior")| o |sep = " "| pula a 
 
 x = int(input(""))# Sempre melhor fazer um input separado
 
-new_func(x)#ativa função
+new_func(x)#ativa função infinitamente
