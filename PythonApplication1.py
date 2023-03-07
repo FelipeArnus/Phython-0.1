@@ -1,7 +1,7 @@
 # hamletuce
 
 
-def new_func(x):#declara função
+def func_test0(x):#declara função
 
  if x < 5: #|if| não precisa de parenteses a n ser que seja algo mais complexo como |if (x>5) and (x<6):|
     print("  Perdeu")
@@ -12,11 +12,15 @@ def new_func(x):#declara função
  y = input(" Recomessar? ")#toda declaração começa como string
 
  if(y == 'sim') or (y == 'Sim') or (y == 's') or (y == 'S'):
-    new_func(x)#reinicia a função
 
+     print(' ', sep = ' ')
+     
+    main()#reinicia a main
 
-print("  hello there", sep = '')# |print("fala interior")| o |sep = " "| pula a linha
+def main():
+
+print("  hello there", sep = '') #|print("fala interior")| o |sep = " "| pula a linha
 
 x = int(input(""))# Sempre melhor fazer um input separado
 
-new_func(x)#ativa função
+func_test0(x)#ativa função
