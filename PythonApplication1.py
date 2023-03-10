@@ -9,19 +9,21 @@ def func_test0(x):#declara função
  else:
     print("  Ganhamo", x) # |,| obviamente cria uma sequencia
 
- y = input(" Terminar? ")#toda declaração começa como string
+ y = input(" Repetir? ")#toda declaração começa como string
 
  if(y == 'sim') or (y == 'Sim') or (y == 's') or (y == 'S'):
      print(' ', sep = ' ')
+     main1()#reinicia função main1
      
- main()#retorna para main
 
-def main():
+def main1():#função nomeada main1
 
-print("  hello there", sep = '') #|print("fala interior")| o |sep = " "| pula a linha
+    print("  hello there", sep = '') #|print("fala interior")| o |sep = " "| pula a linha
 
-x = int(input(""))# Sempre melhor fazer um input separado
+    x = int(input(" "))# Sempre melhor fazer um input separado
 
-func_test0(x)#ativa função
+    func_test0(x)#ativa função
 
-print(" terminou ", sep = ' ')
+    print(" terminou ", sep = ' ')
+
+main1()#codigo da main não é cercado
