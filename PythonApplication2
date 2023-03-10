@@ -1,3 +1,4 @@
+Numerandos
 X + Y  adição
 X - Y  subtração
 X * Y  multiplicação
@@ -5,3 +6,12 @@ X / Y  divisao normal(com decimal)
 X % Y  resto da divisão
 X // Y divisao inteira
 X ** Y potencia
+
+Atribuição
+X = normal
+X += (x = x + 1)
+X -= (x = x - 1)
+X *= Y (x = x * y)
+X /= Y (x = x / y)
+X //= Y (x = x // y)
+X %= Y (x = x % y)
