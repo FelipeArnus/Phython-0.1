@@ -9,8 +9,8 @@ X ** Y potencia
 
 Atribuição
 X = normal
-X += (x = x + 1)
-X -= (x = x - 1)
+X += Y (x = x + y)
+X -= Y (x = x - y)
 X *= Y (x = x * y)
 X /= Y (x = x / y)
 X //= Y (x = x // y)
