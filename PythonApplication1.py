@@ -9,13 +9,12 @@ def func_test0(x):#declara função
  else:
     print("  Ganhamo", x) # |,| obviamente cria uma sequencia
 
- y = input(" Recomessar? ")#toda declaração começa como string
+ y = input(" Terminar? ")#toda declaração começa como string
 
  if(y == 'sim') or (y == 'Sim') or (y == 's') or (y == 'S'):
-
      print(' ', sep = ' ')
      
-    main()#reinicia a main
+ main()#retorna para main
 
 def main():
 
@@ -24,3 +23,5 @@ print("  hello there", sep = '') #|print("fala interior")| o |sep = " "| pula a 
 x = int(input(""))# Sempre melhor fazer um input separado
 
 func_test0(x)#ativa função
+
+print(" terminou ", sep = ' ')
