@@ -18,3 +18,4 @@ X %= Y (x = x % y)
 
 Variados
 print(f'Fala {X}') -> fString
+n = x.count() -> conta tamanho da string
