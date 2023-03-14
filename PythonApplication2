@@ -15,3 +15,6 @@ X *= Y (x = x * y)
 X /= Y (x = x / y)
 X //= Y (x = x // y)
 X %= Y (x = x % y)
+
+Variados
+print(f'Fala {X}') -> fString
