@@ -1,0 +1,22 @@
+
+def virus(a,b):#função do virus
+    
+    
+    c = a + b
+    a.toString()
+    b.toString()
+    if(a[0]==7) or (a[1]==7):
+        
+
+
+
+
+
+a = int(input("Pontos da Alemanha: "))
+b = int(input("Pontos BR: "))
+
+if (a > 99) or (b > 99) or (a<0) or (b<0):
+    print("ERRO")
+else:
+   c = int(virus(a,b))
+   print(c)
