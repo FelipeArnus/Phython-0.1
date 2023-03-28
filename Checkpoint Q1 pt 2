@@ -1,0 +1,39 @@
+def virus(a, b):
+        if (a > 99) or (b > 99) or (a < 0) or (b < 0):
+            print("ERRO")
+            return -1
+        
+        a1 = a // 10
+        a2 = a % 10
+        b1 = b // 10
+        b2 = b % 10
+        
+        if (a1 == 7):
+            a1 = 0
+        if (a2 == 7):
+            a2 = 0
+        if (b1 == 7):
+            b1 = 0
+        if (b2 == 7):
+            b2 = 0
+            
+        c = (a1 * 10 + a2) + (b1 * 10 + b2)
+        
+        c1 = c // 100 #caso o resultado tenha 3 algarismos, os divida sem resto
+        cw = c % 100 #resto de c divifido por 100
+        c2 = cw // 10 #
+        c3 = cw % 10
+        
+        if (c2 == 7):
+            c2 = 0
+        if (c3 == 7):
+            c3 = 0
+        
+        
+        return c1 * 100 + c2 * 10 + c3
+
+a = int(input("Pontos da Alemanha: "))
+b = int(input("Pontos BR: "))
+
+c = virus(a, b)
+print(c)
