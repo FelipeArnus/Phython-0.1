@@ -21,3 +21,7 @@ print(f'Fala {X}') -> Assim que se fala algo dentro de um print com mensagem pre
 n = x.count() -> conta tamanho da string
 x = x.lower -> lowercases string
 x = str(x) -> transfere em string
+
+match x: ->switch do python
+  case y:
+    print(slaoq)
