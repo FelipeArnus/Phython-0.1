@@ -23,5 +23,6 @@ x = x.lower -> lowercases string
 x = str(x) -> transfere em string
 
 match x: ->switch do python
-  case y:
-    print(slaoq)
+  case y: -> caso x == y
+    print()
+  case _: -> caso n for nenhuma das anteriores  
