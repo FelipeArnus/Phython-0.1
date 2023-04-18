@@ -26,3 +26,5 @@ match x: ->switch do python
   case y | w : -> caso x == y ou x == w
     print()
   case _: -> caso n for nenhuma das anteriores  
+
+for x in range(w,y,3) -> repete comando quando 'x' esta no range de 'w' a 'y' aumentando o x de 3 em 3 
