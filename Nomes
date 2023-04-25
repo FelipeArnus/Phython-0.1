@@ -27,4 +27,6 @@ match x: ->switch do python
     print()
   case _: -> caso n for nenhuma das anteriores  
 
-for x in range(w,y,3) -> repete comando quando 'x' esta no range de 'w' a 'y' aumentando o x de 3 em 3 
+for x in range(w,y,3): -> repete comando quando 'x' esta no range de 'w' a 'y' aumentando o x de 3 em 3 
+
+round(x,n) -> arredonda 'x' em até 'n' casas decimais
