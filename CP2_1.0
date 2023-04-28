@@ -1,0 +1,47 @@
+
+n = int(input("n: "))
+x = 0
+
+c1 = 0
+ep = 0
+ep1 = 0
+
+a = n #variavel a
+b = n #variavel a
+dA = 0 #variavel b
+dB = 0 #variavel b
+
+for c in range(2, n):
+    if(0==(n%c)):
+        ep += 1
+#if(ep == 0):
+ #   print(f'O numero primo mais proximo de {n} é {n}')
+  #  x = 1
+    
+
+if(x == 0):
+    while(c1 == 0):
+        if(a >= 1):
+            a = a - 1
+            dA = dA + 1
+            for c in range(2, a):
+                if(0==(a%c)):
+                    ep1 += 1
+            if(ep1 == 0):
+                a = 1
+
+        if(b <= 1000):
+            b = b + 1
+            dB = dB + 1
+            for c in range(2, b):
+                if(0==(b%c)):
+                    ep1 += 1
+            if(ep1 == 0):
+                b = 1000
+        if(a==1 and b == 1000):
+            c1 = 1
+
+if(dA <= dB) and (dA != 0):
+    print(f'O numero primo mais proximo de {n} é {n - dA}')
+elif(dA > dB):
+    print(f'O numero primo mais proximo de {n} é {n + dB}')
