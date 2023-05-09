@@ -1,47 +1,50 @@
+#descobrin numero primo e dizer qual o proximo
+#FELIPE DE CAMPOS MELLO ARNUS - RM:550923
 
-n = int(input("n: "))
 x = 0
+y = 0
+c = 0
+n = 1
 
-c1 = 0
-ep = 0
-ep1 = 0
+def primo(x,n):
+    x = 0
+    for c in range(2,n):
+        if(0==(n%c)):
+            x = x + 1
+    if(x==0):
+        return 1 #confirmação postitiva
+    else:
+        return 0 #confirmação negativa
 
-a = n #variavel a
-b = n #variavel a
-dA = 0 #variavel b
-dB = 0 #variavel b
+def baixo(a):
+    x = 0
+    c = 0
+    while(c==0):
+        x = primo(x,a)
+        if(x == 1):#caso b seja primo ele retorna esse para o main
+            return a #numero primo mais proximo(para baixo)
+        a = a - 1
 
-for c in range(2, n):
-    if(0==(n%c)):
-        ep += 1
-#if(ep == 0):
- #   print(f'O numero primo mais proximo de {n} é {n}')
-  #  x = 1
-    
+def alto(b):
+    x = 0
+    c = 0
+    while(c==0):
+        x = primo(x,b)
+        if(x == 1):#caso b seja primo ele retorna esse para o main
+            return b #numero primo mais proximo(pra cima)
+        b = b + 1
 
-if(x == 0):
-    while(c1 == 0):
-        if(a >= 1):
-            a = a - 1
-            dA = dA + 1
-            for c in range(2, a):
-                if(0==(a%c)):
-                    ep1 += 1
-            if(ep1 == 0):
-                a = 1
+while(n!=0):
+    n = -1
+    while(n<0)or(n>1000):
+        n = int(input("n: "))
 
-        if(b <= 1000):
-            b = b + 1
-            dB = dB + 1
-            for c in range(2, b):
-                if(0==(b%c)):
-                    ep1 += 1
-            if(ep1 == 0):
-                b = 1000
-        if(a==1 and b == 1000):
-            c1 = 1
-
-if(dA <= dB) and (dA != 0):
-    print(f'O numero primo mais proximo de {n} é {n - dA}')
-elif(dA > dB):
-    print(f'O numero primo mais proximo de {n} é {n + dB}')
+    x = alto(n)
+    y = baixo(n)
+    if(n != 1)and(n!=0):
+        if(x - n)>=(n - y):#mede a distãncia entre a proximidade dos dois numeros primos proximos
+            print(f'O numero primo mais proximo de {n} é {y}')
+        elif(x - n)<(n - y):
+            print(f'O numero primo mais proximo de {n} é {x}')
+    elif(n == 1):
+        print('O numero primo mais proximo de 1 é 2')
