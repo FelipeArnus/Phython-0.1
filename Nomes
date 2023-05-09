@@ -1,4 +1,4 @@
-Numerandos
+#Numerandos
 X + Y  adição
 X - Y  subtração
 X * Y  multiplicação
@@ -7,7 +7,8 @@ X % Y  resto da divisão
 X // Y divisao inteira
 X ** Y potencia
 
-Atribuição
+
+#Atribuição
 X = normal
 X += Y (x = x + y)
 X -= Y (x = x - y)
@@ -16,17 +17,36 @@ X /= Y (x = x / y)
 X //= Y (x = x // y)
 X %= Y (x = x % y)
 
-Variados
+
+#VARIADOS
 print(f'Fala {X}') -> Assim que se fala algo dentro de um print com mensagem previa
+
 n = x.count() -> conta tamanho da string
+
 x = x.lower -> lowercases string
+
 x = str(x) -> transfere em string
 
+round(x,n) -> arredonda 'x' em até 'n' casas decimais
+
+
+#CONDIÇÕES
 match x: ->switch do python
   case y | w : -> caso x == y ou x == w
     print()
   case _: -> caso n for nenhuma das anteriores  
-
+  
 for x in range(w,y,3): -> repete comando quando 'x' esta no range de 'w' a 'y' aumentando o x de 3 em 3 
+  print()
 
-round(x,n) -> arredonda 'x' em até 'n' casas decimais
+
+#ERROS
+try:
+  except: -> funciona como if else só que com erros(e else realmente funciona nas condições)
+  except TypeError:
+  except NameError:
+  except ValueError:  
+  except ZeroDivsionError:
+
+  finally: -> roda independente de erros no programa       
+   
