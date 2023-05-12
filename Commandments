@@ -41,12 +41,17 @@ for x in range(w,y,3): -> repete comando quando 'x' esta no range de 'w' a 'y' a
 
 
 #ERROS
-try:
-  except: -> funciona como if else só que com erros(e else realmente funciona nas condições)
-  except TypeError:
-  except NameError:
-  except ValueError:  
-  except ZeroDivsionError:
+try: -> cria um ambiente em que erros são permitidos(funções dentro de "try" tambem protegem os resultados)
 
-  finally: -> roda independente de erros no programa       
+except xxxxxxxxx: -> EXCECTO algum erro(xxxxxxxxx) ocorra a operção em seguida ocorre 
+  print("fala algo")
+  
+raise xxxxxxxxxx: ->
+
+xxxxxx TypeError: -> erro de variavel(caso string para int e vice versa)
+xxxxxx NameError: ->
+xxxxxx ValueError: -> caso 
+xxxxxx ZeroDivsionError:
+
+finally: -> roda independente de erros no programa       
    
