@@ -64,6 +64,8 @@ x[-1] -> (7) -> sequencia é normal mas -2 é penultimo
 
 n = len(x) -> numero de itens nesse caso {5}
 
+x.pop[0] -> remove o primeiro nome da lista
+
 
 
 
