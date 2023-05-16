@@ -59,7 +59,8 @@ finally: -> roda independente de erros no programa
 #LISTA
 
 x = [1,3,46,5,7]
-print(x) -> 1 3 46 5 7
+print(x)  -> (1 3 46 5 7)
+x[-1] -> (7) -> sequencia é normal mas -2 é penultimo
 
 
 
