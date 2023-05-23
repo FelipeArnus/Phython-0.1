@@ -59,12 +59,18 @@ finally: -> roda independente de erros no programa
 #LISTA ->listas devem ser declaradas
 
 x = [1,3,46,5,7]
+
 print(x)  -> (1 3 46 5 7)
+
 x[-1] -> (7) -> sequencia é normal mas -2 é penultimo
 
 n = len(x) -> numero de itens nesse caso {5}
+n = max(x) -> maior numero {46}
+n = min(x) -> menor numero {1}
+n = sum(x) -> soma {62}
 
 x.pop[0] -> remove o primeiro nome da lista
+x.append -> adiciona um numero no final da lista
 
 
 
