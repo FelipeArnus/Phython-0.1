@@ -31,7 +31,9 @@ round(x,n) -> arredonda 'x' em até 'n' casas decimais
 
 type(x) -> lê o tipo de variavel, se ela carregar uma string ele sabe, se é int ele sabe etc...
  if type(x) == int:
-  bla bla bla
+  double(x) -> transforma em double e funciona em todas as formas de variaveis
+
+print(f'nome {} idade {} blabla' .format(x, y)) -> enfia x e y nas casas que faltam respectivamente
 
 #CONDIÇÕES
 match x: ->switch do python
@@ -41,7 +43,6 @@ match x: ->switch do python
   
 for x in range(w,y,3): -> repete comando quando 'x' esta no range de 'w' a 'y' aumentando o x de 3 em 3 
   print()
-
 
 #ERROS
 try: -> cria um ambiente em que erros são permitidos(funções dentro de "try" tambem protegem os resultados)
