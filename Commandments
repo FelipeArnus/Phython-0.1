@@ -29,6 +29,9 @@ x = str(x) -> transfere em string
 
 round(x,n) -> arredonda 'x' em até 'n' casas decimais
 
+type(x) -> lê o tipo de variavel, se ela carregar uma string ele sabe, se é int ele sabe etc...
+ if type(x) == int:
+  bla bla bla
 
 #CONDIÇÕES
 match x: ->switch do python
@@ -71,7 +74,6 @@ n = sum(x) -> soma {62}
 
 x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
-
 
 
 
