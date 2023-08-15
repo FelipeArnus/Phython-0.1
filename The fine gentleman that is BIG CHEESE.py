@@ -1,5 +1,6 @@
 
 def alfabeto(x):
+    x = x.lower()
     for c in x:
         match c:
             case 'a':
@@ -155,12 +156,64 @@ def alfabeto(x):
                 print('    ____\_\  \  ')
                 print('   |\_________\ ')
                 print('   \|_________| ')
-            case 'p':
+            case 't':
                 print(' _________    ')
                 print('|\___   ___\  ')
                 print('\|___ \  \_|  ')
                 print('      \ \  \  ')
                 print('       \ \__\ ')
                 print('        \|__| ')
-
+            case 'u':
+                print(' ___  ___     ')
+                print('|\  \|\  \    ')
+                print('\ \  \\\  \   ')
+                print(' \ \  \\\  \   ')
+                print('  \ \  \\\  \  ')
+                print('   \ \_______\ ')
+                print('    \|_______| ')
+            case 'v':
+                print(' ___      ___  ')
+                print('|\  \    /  /| ')
+                print('\ \  \  /  / / ')
+                print(' \ \  \/  / /  ')
+                print('  \ \    / /   ')
+                print('   \ \__/ /    ')
+                print('    \|__|/     ')
+            case 'w':
+                print(' ___       __       ')
+                print('|\  \     |\  \     ')
+                print('\ \  \  __\ \  \    ')
+                print(' \ \  \ \  \ \  \   ')
+                print('  \ \  \|\__\_\  \  ')
+                print('   \ \____________\ ')
+                print('    \|____________| ')
+            case 'x':
+                print(' ___    ___ ')
+                print('|\  \  /  /|')
+                print('\ \  \/  / /')
+                print(' \ \    / / ')
+                print('  /     \/  ')
+                print(' /  /\   \  ')
+                print('/__/ /\ __\ ')
+                print('|__|/ \|___| ')
+            case 'y':
+                print('  ___    ___ ')
+                print(' |\  \  /  /|')
+                print(' \ \  \/  / /')
+                print('  \ \    / / ')
+                print('   \/  /  /  ')
+                print(' __/  / /    ')
+                print('|\___/ /     ')
+                print('\|___|/      ')
+            case 'z':
+                print(' ________      ')
+                print('|\_____  \     ')
+                print(' \|___/  /|    ')
+                print('     /  / /    ')
+                print('    /  /_/__   ')
+                print('   |\________\ ')
+                print('    \|_______| ')
+            
+x = str(input('Big cheese plz: '))
+alfabeto(x)
             
