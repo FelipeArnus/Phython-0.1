@@ -31,6 +31,10 @@ x = x.capitalize() -> maiuscula primeira letra string
 
 x = x.strip() -> remove espaços entre o começo e o fim da string
 
+---------------------------------------------------------------------------------------|
+x.count().strip().lower() -> eles tambem podem ser usados e, conjunto como demonstrado |
+---------------------------------------------------------------------------------------|
+
 x = str(x) -> transfere em string
 
 round(x,n) -> arredonda 'x' em até 'n' casas decimais
@@ -82,9 +86,9 @@ n = sum(x) -> soma {62}
 x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
 
-|----------------------------------------------|
-| // caso string seja ("queijo de gorgonzola") |
-|----------------------------------------------|
+---------------------------------------------|
+// caso string seja ("queijo de gorgonzola") |
+---------------------------------------------|
  if " de " in x:
   print('esta em teto')
 
