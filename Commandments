@@ -23,7 +23,13 @@ print(f'Fala {X}') -> Assim que se fala algo dentro de um print com mensagem pre
 
 n = x.count() -> conta tamanho da string
 
-x = x.lower -> lowercases string
+x = x.lower() -> lowercases string
+
+x = x.upper() -> maiuscula string
+
+x = x.capitalize() -> maiuscula primeira letra string
+
+x = x.strip() -> remove espaços entre o começo e o fim da string
 
 x = str(x) -> transfere em string
 
@@ -76,6 +82,14 @@ n = sum(x) -> soma {62}
 x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
 
+|----------------------------------------------|
+| // caso string seja ("queijo de gorgonzola") |
+|----------------------------------------------|
+ if " de " in x:
+  print('esta em teto')
+
+
+  
 
 
 
