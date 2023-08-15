@@ -213,6 +213,13 @@ def alfabeto(x):
                 print('    /  /_/__   ')
                 print('   |\________\ ')
                 print('    \|_______| ')
+            case ' ':
+                print(' ')
+                print(' ')
+                print(' ')
+                print(' ')
+                print(' ')
+                print(' ')
             
 x = str(input('Big cheese plz: '))
 alfabeto(x)
