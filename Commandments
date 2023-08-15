@@ -60,7 +60,7 @@ xxxxxx ZeroDivsionError:
 finally: -> roda independente de erros no programa       
    
    
-#LISTA ->listas devem ser declaradas
+#LISTA & STRINGS ->listas devem ser declaradas
 
 x = [1,3,46,5,7]
 
