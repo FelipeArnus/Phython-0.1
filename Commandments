@@ -84,10 +84,10 @@ n = len(x) -> numero de itens nesse caso {5}
 n = max(x) -> maior numero {46}
 n = min(x) -> menor numero {1}
 n = sum(x) -> soma {62}
+x = x(y) -> copia os itens da lista y para a lista x
 
 x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
-
 x.index(n) -> posição de 'n'
 x.count(n) -> quantidades de 'n' que existem na lista
 
@@ -95,7 +95,7 @@ x.count(n) -> quantidades de 'n' que existem na lista
 // caso string seja ("queijo de gorgonzola") |
 ---------------------------------------------|
  if " de " in x:
-  print('esta em teto')
+  print('esta em texo')
 
 
   
