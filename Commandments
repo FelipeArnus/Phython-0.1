@@ -88,6 +88,9 @@ n = sum(x) -> soma {62}
 x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
 
+x.index(n) -> posição de 'n'
+x.count(n) -> quantidades de 'n' que existem na lista
+
 ---------------------------------------------|
 // caso string seja ("queijo de gorgonzola") |
 ---------------------------------------------|
