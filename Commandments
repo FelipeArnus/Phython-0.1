@@ -21,8 +21,6 @@ X %= Y (x = x % y)
 #VARIADOS
 print(f'Fala {X}') -> Assim que se fala algo dentro de um print com mensagem previa
 
-n = x.count() -> conta tamanho da string
-
 x = x.lower() -> lowercases string
 
 x = x.upper() -> maiuscula string
