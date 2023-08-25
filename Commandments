@@ -80,14 +80,15 @@ ________________________________________________________________________________
 #DICIONARIOS -> segue regras extremamente similares a listas, ent propriedades de "for" e "+" funcionam também, tmb dá pra colocar 
 listas e matrizes dentro desse
 
-cadastro = {'nome': 'Glob',
+dicionario = {'nome': 'Glob',
             'idade': 73412476473912,
             'ocupação': 'A eterna destruição do universo e reino da entropia',
-            'local de origem': 'unknown'}
+            'local de origem': 'unknown',
+            'cheeseLord': [1243, 'uysgfigisf', 5568]}
 
-print(cadastro) -> {'nome': 'Glob', 'idade': 73412476473912, 'ocupação': 'A eterna destruição do universo e reino da entropia', 'local de origem': 'unknown'}
-print(cadastro['nome'] -> Glob
-
+print(dicionario) -> {'nome': 'Glob', 'idade': 73412476473912, 'ocupação': 'A eterna destruição do universo e reino da entropia', 'local de origem': 'unknown'}
+print(dicionario['nome'] -> Glob
+print(dicionario['cheeseLord'][1]) -> uysgfigisf
 
 ____________________________________________________________________________________________________________________________________________________________________________
 #LISTA & STRINGS -> listas devem ser declaradas
