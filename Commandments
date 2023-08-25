@@ -77,7 +77,7 @@ finally: -> roda independente de erros no programa
 
 
 ____________________________________________________________________________________________________________________________________________________________________________
-#DICIONARIOS
+#DICIONARIOS -> segue regras extremamente similares a listas, ent propriedades de "for" e "+" funcionam também
 
 cadastro = {'nome': 'Glob',
             'idade': 73412476473912,
