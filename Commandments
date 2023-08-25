@@ -7,7 +7,7 @@ X % Y  resto da divisão
 X // Y divisao inteira
 X ** Y potencia
 
-
+_________________________________________________________________________________________________________________________________
 #Atribuição
 X = normal
 X += Y (x = x + y)
@@ -17,7 +17,7 @@ X /= Y (x = x / y)
 X //= Y (x = x // y)
 X %= Y (x = x % y)
 
-
+_________________________________________________________________________________________________________________________________
 #VARIADOS
 print(f'Fala {X}') -> Assim que se fala algo dentro de um print com mensagem previa
 
@@ -43,6 +43,7 @@ type(x) -> lê o tipo de variavel, se ela carregar uma string ele sabe, se é in
 
 print(f'nome {} idade {} blabla' .format(x, y)) -> enfia x e y nas casas que faltam respectivamente
 
+_________________________________________________________________________________________________________________________________
 #CONDIÇÕES
 match x: ->switch do python
   case y | w : -> caso x == y ou x == w
@@ -51,7 +52,7 @@ match x: ->switch do python
   
 for x in range(w,y,3): -> repete comando quando 'x' esta no range de 'w' a 'y' aumentando o x de 3 em 3 
   print()
-
+_________________________________________________________________________________________________________________________________
 #ERROS
 try: -> cria um ambiente em que erros são permitidos(funções dentro de "try" tambem protegem os resultados)
 
@@ -66,8 +67,16 @@ xxxxxx ValueError: -> caso
 xxxxxx ZeroDivsionError:
 
 finally: -> roda independente de erros no programa       
-   
-   
+_________________________________________________________________________________________________________________________________
+#DICIONARIOS
+
+cadastro = {'nome': 'Glob',
+            'idade': 73412476473912,
+            'ocupação': 'A eterna destruição do universo e reino da entropia',
+            'local de origem': 'unknown'}
+print(cadastro) -> {'nome': 'Glob', 'idade': 73412476473912, 'ocupação': 'A eterna destruição do universo e reino da entropia', 'local de origem': 'unknown'}
+
+_________________________________________________________________________________________________________________________________
 #LISTA & STRINGS -> listas devem ser declaradas
 
 x = [1,3,46,5,7] -> nesse caso é uma lista mas pode ser uma string tmb
@@ -94,7 +103,8 @@ x.count(n) -> quantidades de 'n' que existem na lista
 ---------------------------------------------|
  if " de " in x:
   print('esta em texo')
-
+_________________________________________________________________________________________________________________________________
+#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
   
 
