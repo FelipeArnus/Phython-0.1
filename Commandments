@@ -77,7 +77,8 @@ finally: -> roda independente de erros no programa
 
 
 ____________________________________________________________________________________________________________________________________________________________________________
-#DICIONARIOS -> segue regras extremamente similares a listas, ent propriedades de "for" e "+" funcionam também
+#DICIONARIOS -> segue regras extremamente similares a listas, ent propriedades de "for" e "+" funcionam também, tmb dá pra colocar 
+listas e matrizes dentro desse
 
 cadastro = {'nome': 'Glob',
             'idade': 73412476473912,
