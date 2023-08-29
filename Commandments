@@ -89,7 +89,9 @@ dicionario = {'nome': 'Glob',
 print(dicionario) -> {'nome': 'Glob', 'idade': 73412476473912, 'ocupação': 'A eterna destruição do universo e reino da entropia', 'local de origem': 'unknown'}
 print(dicionario['nome'] -> Glob
 print(dicionario['cheeseLord'][1]) -> uysgfigisf
+
 dicionario[x] = y -> adiciona y no nome da chave x //sim como uma matriz
+for x, y in dicionario.items(): -> clicla entre itens do dicionario
 
 
 ____________________________________________________________________________________________________________________________________________________________________________
