@@ -115,12 +115,15 @@ x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
 x.index(n) -> posição de 'n'
 x.count(n) -> quantidades de 'n' que existem na lista
+x = x.strip(' ') -> a string em varias strings com o criterio no meio sendo o ponto de separaçãp
 
 ---------------------------------------------|
 // caso string seja ("queijo de gorgonzola") |
 ---------------------------------------------|
  if " de " in x:
   print('esta em texo')
+
+ x = x.strip(' ') -> x == ('queijo', 'de', 'gorgonzola')
 
 
 ____________________________________________________________________________________________________________________________________________________________________________
