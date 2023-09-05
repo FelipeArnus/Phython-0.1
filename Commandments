@@ -117,6 +117,7 @@ x.index(n) -> posição de 'n'
 x.count(n) -> quantidades de 'n' que existem na lista
 x = x.split(' ') -> a string em varias strings com o criterio no meio sendo o ponto de separaçãp
 x.strip(coisas kk) -> remove pontos indesejados
+x.discard(n) -> elimina n da lista
 
 ---------------------------------------------|
 // caso string seja ("queijo de gorgonzola") |
