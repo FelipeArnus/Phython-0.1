@@ -115,9 +115,11 @@ x.pop[0] -> remove o primeiro nome da lista
 x.append -> adiciona um numero no final da lista
 x.index(n) -> posição de 'n'
 x.count(n) -> quantidades de 'n' que existem na lista
-x = x.split(' ') -> a string em varias strings com o criterio no meio sendo o ponto de separaçãp
+x.split(' ') -> a string em varias strings com o criterio no meio sendo o ponto de separaçãp
 x.strip(coisas kk) -> remove pontos indesejados
 x.discard(n) -> elimina n da lista
+x.intersection(y) -> mostra uma lista que possui apenas itens que estão em ambas as listas
+x.difference(y) -> oposto de intersection -> só que aí é apenas os itens de x, NÃO de x + y
 
 ---------------------------------------------|
 // caso string seja ("queijo de gorgonzola") |
