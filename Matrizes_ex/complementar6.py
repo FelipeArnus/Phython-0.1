@@ -1,42 +1,34 @@
-matrix = [[0,0,0][0,0,0][0,0,0]]
-p = 'o'
+matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+player = 'Q'
 
-def preenche_matriz(p):
-    matrix = []
-    for _ in range(3):
-        if matrix[p]:
-            linha = []
-            for _ in range(3):
-                x = int(input(': '))
-                linha.append(x)
-            matrix.append(linha)
-    return matrix
+def preenche_matriz(matrix, player):
+    while True:
+        try:
+            coluna = int(input(f'Jogador {player}, digite a coluna (0, 1 ou 2): '))
+            linha = int(input(f'Jogador {player}, digite a linha (0, 1 ou 2): '))
 
-def verf(matrix):
-    print_matriz(matrix)
-    v = int(input(f'Posição {p} formato é coluna e linha [][]:'))
-    
-
+            if matrix[coluna][linha] == 0:
+                matrix[coluna][linha] = player
+                break
+            else:
+                print("Essa posição já está ocupada. Tente novamente.")
+        except (ValueError, IndexError):
+            print("Entrada inválida. Tente novamente.")
 
 def print_matriz(matrix):
-    for c in range(len(matrix)):#coluna
-        print()#skip coluna
-        for l in range(len(matrix[0])):#linha
-            print(matrix[c][l], end='\t')#no skip|linha
+    for c in range(len(matrix)):
+        print()
+        for l in range(len(matrix[0])):
+            print(matrix[c][l], end='\t')
 
 while True:
-
-    while True:
-        if v == 'x':
-            v == 'o'
-        elif v == 'o':
-            v == 'x'
-        print_matriz(matrix)
-        p = int(input(f'Posição {v} formato é [coluna][linha]:'))
-        preenche_matriz(p, v)
-
-
-        v = verf(matrix)
-
-    matrix = preenche_matriz()
     print_matriz(matrix)
+    preenche_matriz(matrix, player)
+
+    if player == 'X':
+        player = 'Q'
+    else:
+        player = 'X'
+
+    # Verificar se alguém ganhou (implemente sua lógica de vitória aqui)
+    # Verificar se houve empate (implemente sua lógica de empate aqui)
