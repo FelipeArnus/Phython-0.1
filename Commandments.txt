@@ -128,9 +128,17 @@ x.difference(y) -> oposto de intersection -> só que aí é apenas os itens de x
   print('esta em texo')
 
  x = x.split(' ') -> x == ('queijo', 'de', 'gorgonzola')
-
-
 ____________________________________________________________________________________________________________________________________________________________________________
-#AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+#A SER DELETADO DPS
+#1 - mean -> faz media dos itens em uma lista -> x['nome da lista'].mean()
+#2 - iloc -> separa o dataframe -> x.iloc(inicio:fim-1) 
+#3 - LinearRegression -> cria variavel para regressão -> 
+#4 - fit -> treina a regressão 
+#5 - coef_ -> a
+#6 - intercept_ -> c
+#7 - pd.DataFrame -> cria dataframe
+#8 - predict -> usa Lnear Regression para novos valores
+#9 - reset_index -> ---
+#10 - concat -> Junta dois datafrem,es
 
   
